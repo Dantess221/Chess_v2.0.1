@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{10b5b5c3-f8a9-41e5-bc88-ca4e649bcdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{a9056ea7-4e79-4fd3-8bec-c1f4b1202fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Headers">
+      <UniqueIdentifier>{dc487395-404d-45ae-99af-5f7789f93d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{abe07f60-4ed5-4360-9da0-af8f7152eb61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\board.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ChessEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Textures.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Chess_v2.0.1.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Figure.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\b_bishop.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\b_king.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\b_knight.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\b_pawn.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\b_queen.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\b_rook.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_bishop.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_king.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_knight.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_pawn.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_queen.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\w_rook.png">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Headers\board.h">
+      <Filter>Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\ChessEngine.h">
+      <Filter>Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Textures.h">
+      <Filter>Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\Figure.h">
+      <Filter>Source\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Textures\text.ttf">
+      <Filter>Textures</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
